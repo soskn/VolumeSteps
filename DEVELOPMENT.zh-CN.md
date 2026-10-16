@@ -11,7 +11,7 @@
 
 | 项目 | 值 |
 | --- | --- |
-| 设备 | Xiaomi 13（`nuwa`） |
+| 设备 | Xiaomi 13 Pro（`nuwa`） |
 | ROM | 基于 crDroid / LineageOS，Android 16，API 36 |
 | Root | KernelSU，`ksud 4.2.0`，`su` 版本 40900 |
 | Metamodule | **未安装**（见 §3） |
