@@ -46,6 +46,27 @@ This module mirrors how the ROM's own `AudioService` reads volume steps.
 - The ROM must derive these values the same way (the standard AOSP
   `AudioService` behaviour).
 
+## Disclaimer / 兼容性与风险
+
+This module has only been tested on the author's device/ROM (for example: Xiaomi 13 Pro, Android 16, KernelSU). Use at your own risk. Back up your device before installing. Installation or use may cause system instability or render the device unbootable. The author and contributors are not liable for any damage, data loss, or other loss that may result from using this software.
+
+兼容性与风险说明
+
+- 测试范围：本模块仅在作者用于开发测试的设备/ROM（例如：Xiaomi 13 Pro，Android 16，KernelSU）上验证。不同厂商或定制 ROM 可能使用不同的资源名或实现，从而导致不兼容或副作用。
+- 操作风险：模块在引导阶段修改系统属性并通过 RRO 修改 framework 资源。错误使用可能导致系统声音异常或更严重的问题（包括无法开机）。安装前请备份重要数据或完整镜像（例如 TWRP 备份）。
+- 免责声明：本项目按“原样”提供；作者对因使用本模块造成的任何损失不承担责任。
+- 报告问题：请在 issue 中提供设备型号、Android 版本、ROM 名称/构建号、模块版本以及相关日志（logcat、dmesg、bootlog）。
+
+Some parts of this repository were developed with assistance from an AI code assistant (e.g., GitHub Copilot). The author reviewed and tested the resulting code.
+
+本仓库的部分实现/帮助由智能体（例如：GitHub Copilot）辅助完成。最终代码由作者审查并测试。
+
+## Maintenance / 维护状态
+
+This project is maintained as "low maintenance". The author does not plan to actively maintain it long-term. Contributions (issues and pull requests) are welcome; maintainers may prioritize pull requests that include device/ROM-specific testing or fixes. Issues without sufficient diagnostic information may be closed if they cannot be investigated.
+
+本项目处于“低维护”状态。作者不打算长期主动维护，但欢迎贡献（Issue/PR）。带有设备/ROM 测试信息或复现步骤的 PR 会更受欢迎；缺少诊断信息的 Issue 可能会被关闭。
+
 ## Installation
 
 1. Download the latest `VolumeSteps-*.zip` from the Releases page.
