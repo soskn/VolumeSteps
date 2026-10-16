@@ -4,7 +4,7 @@
 
 用于调整 Android **音量阶梯数量**（每次按音量键对应的档位细分）的 KernelSU / Magisk 模块。
 
-> 已在 Xiaomi 13（nuwa）、Android 16（API 36）、KernelSU 环境实测通过。
+> 已在 Xiaomi 13 Pro（nuwa）、Android 16（API 36）、KernelSU 环境实测通过。
 
 ---
 
