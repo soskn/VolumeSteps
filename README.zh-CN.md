@@ -4,7 +4,8 @@
 
 用于调整 Android **音量阶梯数量**（每次按音量键对应的档位细分）的 KernelSU / Magisk 模块。
 
-> 已在 Xiaomi 13 Pro（nuwa）、Android 16（API 36）、KernelSU 环境实测通过。
+> 已在 **Xiaomi 13 Pro**（代号 `nuwa`）、**crDroid**（Android 16，API 36）、
+> KernelSU 环境实测通过。
 
 ---
 
@@ -103,6 +104,12 @@ D8=/path/to/d8 ./tools/build-dex.sh
 
 - 本 ROM 中资源名为 `config_audio_ring_vol_steps` / `config_audio_notif_vol_steps`，其他 ROM 可能不同。
 - `resetprop` 必须在 `system_server` 之前运行，因此放在 `post-fs-data.sh` 且使用 `-n`（普通 `setprop` 会导致开机死锁）。
+
+## 免责声明
+
+本模块按**“原样”提供，不附带任何形式的担保**。修改系统属性、刷入 systemless
+模块均有风险，由此导致的任何设备损坏由你自行承担。安装前请备份数据，并确保
+你知道如何从 bootloop 中恢复。
 
 ## 致谢
 
