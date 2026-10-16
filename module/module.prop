@@ -1,0 +1,11 @@
+# Module identity / 模块信息
+# KernelSU / Magisk reads this file. Do NOT translate the keys.
+# KernelSU / Magisk 会读取此文件；键名请勿翻译。
+id=volumesteps
+name=Volume Steps
+version=1.0
+versionCode=1
+author=CHANGEME
+description=Tune Android volume step counts (media/alarm/system/call via props, ring/notification via a root RRO). | 调整 Android 音量阶梯数量（媒体/闹钟/系统/通信用系统属性，铃音/通知用 root RRO 叠加层）。
+# Optional: online update manifest / 可选：在线更新清单
+# updateJson=https://raw.githubusercontent.com/USER/REPO/main/update.json
