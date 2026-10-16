@@ -5,7 +5,7 @@
 A KernelSU / Magisk module that tunes Android **volume step counts** — how many
 "clicks" each volume-key press maps to.
 
-> Tested on a Xiaomi 13 (nuwa) running Android 16 (API 36) with KernelSU.
+> Tested on a Xiaomi 13 Pro (nuwa) running Android 16 (API 36) with KernelSU.
 
 ---
 
