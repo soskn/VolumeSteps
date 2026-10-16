@@ -11,7 +11,7 @@ fix it**. Read this first if the module stops working.
 
 | Item | Value |
 | --- | --- |
-| Device | Xiaomi 13 (`nuwa`) |
+| Device | Xiaomi 13 Pro (`nuwa`) |
 | ROM | crDroid / LineageOS-based, Android 16, API 36 |
 | Root | KernelSU, `ksud 4.2.0`, `su` version 40900 |
 | Metamodule | **none installed** (see §3) |
